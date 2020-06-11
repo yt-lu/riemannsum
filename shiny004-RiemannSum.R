@@ -2,8 +2,8 @@
 # font-size:28px;font-style:italic;'>
 
 library(shiny)
-source("./MyToolbox/curlparentheses.R",local = TRUE)
-source("./MyToolbox/str2latex.R", local = TRUE)
+source("curlparentheses.R",local = TRUE)
+source("str2latex.R", local = TRUE)
 
 ui <- fluidPage(
   tags$head(
